@@ -18,7 +18,7 @@ if n%2 == 0:
 
 else:
     print("odd")
-    
+
 
 
 
@@ -44,7 +44,7 @@ else:
     print("normal numeber")
 
 
-    
+
 
 n=int(input())
 if n%3==0:
@@ -134,7 +134,7 @@ if customers%4==0:
     print(customers//4)
 else:
     print(customers//4+1)
-    
+
 
 
 n = int(input())
@@ -191,7 +191,7 @@ if year == 4:
         else:
             print("backlogs must be zero")
     else:
-        print("marks must be greater than 81")  
+        print("marks must be greater than 81")
 else:
     print("must be in 4th year")
 
@@ -220,7 +220,7 @@ if year == 4:
         else:
             print("eligible")
     else:
-        print("marks must be greater than 81")  
+        print("marks must be greater than 81")
 else:
     print("must be in 4th year")
 
@@ -230,13 +230,13 @@ else:
 year=int(input("must be in [1,2,3,4]:"))
 if year==4:
     marks=int(input("enter marks:"))
-    
+
     if marks>80 and marks<=100:
         backlogs=int(input("enter bakclogs:"))
-        
+
         if backlogs!=0:
             if backlogs>=1 and backlogs<=3:
-                
+
                 pay=input("you have to pay 5000 extra: [yes (or) no]:")
                 if pay=="yes":
                     print("eligible for training")
@@ -244,14 +244,14 @@ if year==4:
                     print("must need to pay")
 
             elif backlogs>3:
-                
+
                 pay=input("you have to pay 10k [yes (or) no]:")
                 if pay=="yes":
                     print("eligible for trainig")
                 else:
                     print("must need to pay 10k")
-                    
-            
+
+
         else:
             print("eligbile for training")
 
@@ -261,30 +261,47 @@ else:
     print("year must be 4")
 
 
-'''
+
+
+
+km = int(input())
+
+if km > 30:
+    print("Not possible")
+
+elif km <= 5:
+    print(km * 5)
+
+elif km <= 12:
+    print((5 * 5) + ((km - 5) * 6))
+
+elif km <= 20:
+    print((5 * 5) + (7 * 6) + ((km - 12) * 8))
+
+elif km <= 30:
+    print((5 * 5) + (7 * 6) + (8 * 8) + ((km - 20) * 10))
 
 
 
 
+names = list(map(str,input().split()))
+
+search = input()
+
+if search in names:
+    print("available")
+else:
+    print("Not available")
 
 
 
 
+d = {101:["john",15],102:["sai",20],103:["ram",25]}
+search = 102
+if search in d:
+    print(d.get(search))
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+''' 
 
 
 
