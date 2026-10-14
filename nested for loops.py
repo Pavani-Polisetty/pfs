@@ -46,7 +46,7 @@ for i in range(2,0,-1):
 
 n = int(input())
 upto = int(input())
-for iin range(n,upto):
+for i in range(n,upto):
     print(f"{n}*{n}={n*i}")
 
 
