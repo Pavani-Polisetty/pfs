@@ -57,7 +57,7 @@ for i in range(1,11):
 
 
 
-i=5
+i=
 while i>=0:
     print(i)
     i-=1
@@ -65,7 +65,6 @@ while i>=0:
 else:
     print("completed")
 
-'''
 
 
 
@@ -84,8 +83,14 @@ for name in names:
     if not name.startswith('p'):
         print(name)
 
-
-
+'''
+n=int(input())
+for number in range(1,n):
+    for i in range(2,number):
+        if number%i==0:
+            break
+    else:
+        print(number)
 
 
 
