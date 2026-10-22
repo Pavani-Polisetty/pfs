@@ -1,21 +1,15 @@
-#fucntions
-def Login():
-    name=input("name:")
-    password=int(input("password:"))
+#funcions
+'''
+def wish(name):
+    print(f"{name}good morning.you are the only one who completed the given task")
 
 
-Login()
+wish("Pavani")
+print(type(wish))
+'''
 
+def addition(a,b,c):
+    print(a+b+c)
 
-
-
-
-def Login(name,password):
-    print(name)
-    print(password)
-    
-
-
-name=input("name:")
-password=int(input("password:"))
-Login(name,password)
+x,y,z = map(int,input().spli())
+addition(x,y,z)
