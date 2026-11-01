@@ -189,7 +189,7 @@ for i in range(7):
     print()
 
 '''
-n = 7
+n = int(input()
 
 for i in range(n):
     for j in range(n):

@@ -101,7 +101,7 @@ Non leap years 4- [2003, 1990]
 ##        
 ##print("leap years -",  leap_years)
 ##print("Non leap years -",  non_leap_years)
-
+'''
 *        *
   *    * 
     *
@@ -133,8 +133,8 @@ Non leap years 4- [2003, 1990]
 ##            print(" ",end=" ")
 ##    print()        
 
-
-
+'''
+'''
 for i in range(5):
     for j in range(5+4):
         if i==j or i+j==8:
@@ -170,8 +170,12 @@ if temp == rev:
 else:
     print("Not Palindrome")
 
+'''
 
-
+a =[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+for i in a:
+    for j in i:
+        print(j,end = "")
 
 
 
